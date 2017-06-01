@@ -1,0 +1,18 @@
+{
+  "name": "webdriverio-pageobject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "alincode <alincode@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-spec-reporter": "^0.1.0",
+    "wdio-testingbot-service": "^0.1.7",
+    "webdriverio": "^4.8.0"
+  }
+}
