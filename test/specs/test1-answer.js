@@ -6,7 +6,7 @@ var DashBoardPage = require('../pageobjects/dashboard.page');
 describe('demo2', function() {
 
   beforeEach(function() {
-    browser.pause(8000);
+    // browser.pause(8000);
   });
 
   it('登入失敗', function() {

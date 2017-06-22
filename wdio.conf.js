@@ -9,6 +9,7 @@ exports.config = {
     // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
+    seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: [
         './test/specs/**/*.js'
     ],
@@ -70,7 +71,7 @@ exports.config = {
     baseUrl: 'http://demo.keystonejs.com/',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 5000,
     //
     // Default timeout in milliseconds for request
     // if Selenium Grid doesn't send response
